@@ -23,11 +23,11 @@ Dataset:
 
 * Hip-Hop Lyrics
 
-** The number of Songs: 5384, most of them totally in English, but some contain a few Germany, Spanish or French words, which might also be regarded as a feature of Hip-Hop. (http://www.metrolyrics.com)
+  * The number of Songs: 5384, most of them totally in English, but some contain a few Germany, Spanish or French words, which might also be regarded as a feature of Hip-Hop. (http://www.metrolyrics.com)
 
 * Shakespeare’s Sonnet & Poem
 
-** The number of Poems: 158, some of poems contain ancient English or other rare words. (http://shakespeare.mit.edu)
+  * The number of Poems: 158, some of poems contain ancient English or other rare words. (http://shakespeare.mit.edu)
 
 ----
 
