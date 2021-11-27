@@ -1,4 +1,4 @@
-# Auto_Hip-Hop_Writer
+# Auto_LyricsWriter
 Automatic English Hip-Hop Lyrics Writer
 
 Hip-Hop/Rap is a modern form of poetry. Great rap lyrics are personal and flow like water, blending into the song while making a point or theme like a great essay or story might.
@@ -21,13 +21,13 @@ Demo:
 
 Dataset: 
 
-Hip-Hop Lyrics
+* Hip-Hop Lyrics
 
-The number of Songs: 5384, most of them totally in English, but some contain a few Germany, Spanish or French words, which might also be regarded as a feature of Hip-Hop. (http://www.metrolyrics.com)
+** The number of Songs: 5384, most of them totally in English, but some contain a few Germany, Spanish or French words, which might also be regarded as a feature of Hip-Hop. (http://www.metrolyrics.com)
 
-Shakespeare’s Sonnet & Poem
+* Shakespeare’s Sonnet & Poem
 
-The number of Poems: 158, some of poems contain ancient English or other rare words. (http://shakespeare.mit.edu)
+** The number of Poems: 158, some of poems contain ancient English or other rare words. (http://shakespeare.mit.edu)
 
 ----
 
