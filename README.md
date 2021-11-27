@@ -7,6 +7,10 @@ Furthermore, it is hard for certain rappers to write lyrics with a variety of st
 
 ----
 
+We built an automatic English Hip-Hop lyrics writer by using TensorFlow to create an LSTM (Long Short-Term Memory) neural network that reads all the Hip-Hop lyrics, it learned all the contexts, words, rhythms, etc. So now when it is given a prime word or phrase, it’ll generate a new lyric in Hip-Hop style. To gain more inspirations, we even train our model with Shakespeare‘s sonnet and poems, after which we can expand our prime words to more creative phrases and then try those out in the generator, see what will happen when Hip-Hop meets Shakespeare!
+
+----
+
 Demo:
 
 ![pic1](https://user-images.githubusercontent.com/89000685/143677162-0d9eaf9c-4502-4fe2-b0f2-3e6b2f605802.png)
@@ -21,4 +25,13 @@ The number of Songs: 5384, most of them totally in English, but some contain a f
 
 Shakespeare’s Sonnet & Poem
 The number of Poems: 158, some of poems contain ancient English or other rare words. (http://shakespeare.mit.edu)
+
+----
+
+Our model is a sequence-to-sequence model, which reads in a sequence of length 5 and is given an initial state, then learns to output a sequence of the same length but ahead of the input sequence by one time step, so that it can capture the writing style. The model contains a 2-layer LSTM each with 256 units, got final model after 30000 steps training.
+
+![pic3](https://user-images.githubusercontent.com/89000685/143677396-d8ccb550-e93c-4843-83c3-6455d17aa129.png)
+
+----
+
 
