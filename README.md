@@ -37,8 +37,8 @@ Our model is a sequence-to-sequence model, which reads in a sequence of length 5
 
 ![pic3](https://user-images.githubusercontent.com/89000685/143677396-d8ccb550-e93c-4843-83c3-6455d17aa129.png)
 
---
-## ENERATING STAGE
+
+## Generating Stage
 
 The model will take one or more prime word as input (or arbitrarily pick up a word if not given) then continuously write lyrics until max length reached. We can perform generation task on two models: Shakespeare’s model can expand your prime words to a short sentence, then Hip-Hop lyrics model will do the rest of the writing.
 
